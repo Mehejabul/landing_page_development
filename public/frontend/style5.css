@@ -1,0 +1,367 @@
+/* .alert {
+    height: 20vh !important;
+} */
+.call_button a {
+    background-color: #00878d;
+}
+.call_button a:hover {
+    background-color: #a80000;
+}
+/* .checkout table.shop_table thead tr th:nth-child(1),
+.checkout table.shop_table tbody tr td:nth-child(1),
+.checkout table.shop_table tfoot tr th:nth-child(1) {
+  width: 40% !important;
+  padding-right: 0 !important;
+} */
+.checkout table.shop_table thead tr th:nth-child(2),
+.checkout table.shop_table tbody tr td:nth-child(2),
+.checkout table.shop_table tfoot tr td:nth-child(2) {
+    width: 30% !important;
+    padding-left: 10px;
+}
+ul#shipping_method li label {
+    display: inline;
+    margin-left: 3px !important;
+}
+
+@media (min-width: 1025px) and (max-width: 1400px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        width: 1100px !important;
+    }
+    .checkout table.shop_table thead tr th:nth-child(2),
+    .checkout table.shop_table tbody tr td:nth-child(2),
+    .checkout table.shop_table tfoot tr td:nth-child(2) {
+        width: 34% !important;
+        padding-left: 10px;
+    }
+    #shipping_method li label {
+        margin-left: 10px !important;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        width: 800px;
+    }
+    .heading-title {
+        font-size: 46px !important;
+    }
+    .checkout .wcf-product-name {
+        display: inline-block;
+        width: 80%;
+        margin-right: 0 !important;
+        margin-left: 13px;
+        font-weight: 500;
+        overflow: hidden;
+    }
+    .order_inner {
+        border: 2px solid #a80000;
+        border-top-width: 15px;
+        border-radius: 30px;
+        padding: 40px 15px !important;
+    }
+    .checkout table.shop_table thead tr th:nth-child(2),
+    .checkout table.shop_table tbody tr td:nth-child(2),
+    .checkout table.shop_table tfoot tr td:nth-child(2) {
+        width: 40% !important;
+        padding-left: 5px;
+    }
+    ul#shipping_method li label {
+        font-size: 13px !important;
+        margin-left: 0px !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container,
+    .container-md,
+    .container-sm {
+        min-width: 320px !important;
+    }
+    .heading-title {
+        font-size: 30px;
+    }
+    .size_guide {
+        padding: 0 !important;
+    }
+    .bellow-heading-title {
+        color: #000000;
+        font-family: "Hind Siliguri", Sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 25px;
+    }
+    .form-checkout .col2-set {
+        margin: 10px 0 0;
+    }
+    .checkout .form-checkout .col2-set .col-1,
+    .checkout .form-checkout .col2-set .col-2,
+    .checkout .woocommerce-page .col2-set .col-1,
+    .checkout .woocommerce-page .col2-set .col-2,
+    .checkout .form-checkout .wcf-col2-set .wcf-col-1,
+    .checkout .form-checkout .wcf-col2-set .wcf-col-2,
+    .checkout .woocommerce-page .wcf-col2-set .wcf-col-1,
+    .checkout .woocommerce-page .wcf-col2-set .wcf-col-2,
+    .checkout .form-checkout .wcf-order-wrap,
+    .checkout .woocommerce-page .wcf-order-wrap {
+        padding: 15px 18px;
+    }
+    .form-checkout .col2-set,
+    .form-checkout .wcf-col2-set {
+        float: none;
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        border-radius: 0;
+        border: none;
+        border-color: none;
+        margin-bottom: 0;
+    }
+    .checkout .form-checkout .wcf-order-wrap {
+        width: 100%;
+        padding: 15px 18px;
+    }
+    ul#shipping_method li label {
+        font-size: 13px !important;
+        margin-left: 5px !important;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .res p {
+        text-align: center;
+        font-size: 16px !important;
+    }
+    .heading_title h2 {
+        color: #ffffff;
+        font-size: 34px;
+        font-weight: 700;
+    }
+    .heading_title_chooseus h2 {
+        color: #ffffff;
+        font-size: 34px;
+        font-weight: 700;
+    }
+    .line_text {
+        font-size: 16px;
+        font-weight: bold;
+        color: #2a2a2a;
+        margin-left: 10px;
+        font-weight: 500;
+    }
+    #your_products_heading {
+        font-family: inherit;
+        font-weight: 600;
+        font-size: 15px;
+        margin: 0 0 25px 0;
+        padding: 3px;
+    }
+    .form-checkout .product-qty-options .wcf-qty-selection {
+        width: 25px;
+        min-width: 25px;
+        min-height: 30px;
+        /* padding: 2px 5px; */
+        color: #666;
+        margin: 0;
+        text-align: center;
+        border: 1px solid #dcdada;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+        -webkit-appearance: "textfield";
+        appearance: "textfield";
+    }
+    .product-qty-options {
+        border: none;
+        /* border-bottom: 0; */
+        background-color: #f3f3f3;
+        border-radius: 4px;
+        border-collapse: collapse;
+        font-family: inherit;
+        font-weight: inherit;
+        font-size: 1em;
+        margin: 0 0 0 0 !important;
+        padding: 15px 6px;
+        text-align: left;
+        width: 100%;
+    }
+    .order_inner {
+        border: 2px solid #a80000;
+        border-top-width: 15px;
+        border-radius: 30px;
+        padding: 40px 30px;
+    }
+    .heading-title {
+        font-size: 27px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .heading-title {
+        font-size: 26px;
+    }
+    .bellow-heading-title {
+        color: #000000;
+        font-family: "Hind Siliguri", Sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 21px;
+    }
+    .btn_order {
+        width: 100%;
+        font-weight: bold;
+        font-size: medium;
+        color: white;
+        background-color: #24233e;
+        padding: 20px;
+        text-align: center;
+    }
+    .heading_title h2 {
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .heading_title_chooseus h2 {
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .order_inner {
+        border: 2px solid #a80000;
+        border-top-width: 15px;
+        border-radius: 30px;
+        padding: 40px 8px;
+    }
+    .footer h3 {
+        font-size: medium;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .heading-title {
+        font-size: 22px;
+    }
+    .bellow-heading-title {
+        color: #000000;
+        font-family: "Hind Siliguri", Sans-serif;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+    .btn_order {
+        width: 100%;
+        font-weight: bold;
+        font-size: small;
+        color: white;
+        background-color: #24233e;
+        padding: 20px;
+        text-align: center;
+    }
+    .heading_title h2 {
+        color: #ffffff;
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .heading_title_chooseus h2 {
+        color: #ffffff;
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .order_inner {
+        border: 2px solid #a80000;
+        border-top-width: 15px;
+        border-radius: 30px;
+        padding: 40px 0px;
+    }
+    .footer h3 {
+        font-size: medium;
+    }
+    .product_option .product-qty {
+        padding: 0;
+        line-height: 1.4em;
+        border: none;
+        position: relative;
+        display: flex;
+        width: 13%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+    }
+    .product-qty-options .wcf-item-wrap {
+        font-size: 0.8em;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    .product_option .product-price {
+        padding: 0;
+        line-height: 1.4em;
+        border: none;
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 10%;
+        text-align: right;
+        justify-content: flex-end;
+        flex: 1;
+        margin-left: 10px;
+        font-size: 0.8em;
+        font-weight: 400;
+    }
+    .form-checkout .product-qty .wcf-qty-change-icon {
+        border: 1px solid #dcdada;
+        height: 22px;
+        width: 16px;
+        margin: 0;
+        padding: 6px 6px;
+        color: #555;
+        text-align: center;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 9px;
+        margin-bottom: 0;
+    }
+    .form-checkout .product-qty-options .wcf-qty-selection {
+        width: 25px;
+        height: 16px;
+        min-width: 22px;
+        min-height: 22px;
+        /* padding: 2px 5px; */
+        color: #666;
+        margin: 0;
+        text-align: center;
+        border: 1px solid #dcdada;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+    }
+    .dashicons,
+    .dashicons-before:before {
+        display: inline-block;
+        line-height: 1;
+        font-weight: 500;
+        font-style: normal;
+        text-decoration: inherit;
+        text-transform: none;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        width: 24px;
+        height: 19px;
+        font-size: 16px;
+        vertical-align: top;
+        text-align: center;
+        transition: color 0.1s ease-in;
+    }
+    .checkout .wcf-product-name {
+        display: inline-block;
+        width: 80%;
+        margin-right: 10px;
+        margin-left: 16px;
+        font-weight: 600;
+        overflow: hidden;
+    }
+}
